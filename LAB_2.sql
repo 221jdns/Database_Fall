@@ -38,8 +38,3 @@ DELETE FROM countries RETURNING *;
 
 
 
-
-()
-
-
-
