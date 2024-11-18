@@ -79,6 +79,7 @@ JOIN customer ON salesman.salesman_id = customer.salesman_id
 GROUP BY salesman.salesman_id, salesman.name
 HAVING COUNT(customer.customer_id) > 1;
 
+
 CREATE ROLE intern;
 GRANT junior_dev TO intern;
 
